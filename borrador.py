@@ -22,10 +22,11 @@ def borrar():
 
 opcion=input(Fore.CYAN+"¿Esta seguro de borrar la carpeta de Descargas por completo? SI/NO :")
 
-if opcion=='SI'or 'si':
+if opcion=='SI' or 'si':
     borrar()
     print(Fore.WHITE+"Carpeta Vaciada")
 else:
+    print("Operacion cancelada por el usuario")
     exit
 
 
